@@ -229,3 +229,37 @@ footer {
         opacity: 1
     }
 }
+
+.contenido-problema{
+
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.p-problema{
+    font-family: sans-serif;
+}
+
+.p-opinion{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    margin: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.imagen-problema{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.titulo-problema{
+    margin: auto;
+    background-color: #a00000;
+
+}
