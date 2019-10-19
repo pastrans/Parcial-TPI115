@@ -107,6 +107,17 @@ body{
     font-weight: bold;
 }
 
+.titulo-seccion{
+    margin: 5px 0;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: #f2f2f2;
+    background-color: #030f2c;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
 footer {
     background-color: #a00000;
     font-size: 24px !important;
