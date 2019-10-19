@@ -1,3 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fffffa;
+}
+
+.centrado{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
 .topnav {
     list-style: none;
     background-color: #a00000;
@@ -5,6 +20,7 @@
     position: static;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
     overflow: hidden;
+    width: 100%;
 }
 
 .topnav a {
@@ -16,10 +32,13 @@
     text-decoration: none;
     font-size: 17px;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .topnav a.active {
-    background-color: black;
+    background-color: #f2f2f2;
     color: #a00000;
 }
 
@@ -58,10 +77,15 @@
         display: block;
         text-align: left;
     }
+
+    h1{
+        font-size: 20px;
+    }
 }
 
 .banner {
     background-color: #d9d9d9;
+    height: 100%;
 }
 
 .logo {
@@ -73,9 +97,14 @@
 }
 
 h1 {
+    margin: 5px 0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     text-align: center;
     font-style: italic;
+    color: #f2f2f2;
+    background-color: #252932;
+    border-radius: 0.5em;
+    font-weight: bold;
 }
 
 footer {
