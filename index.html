@@ -9,48 +9,95 @@
     <meta name="keywords" content="UES, Problemas, Foro, Alumnos, universidad, El Salvador">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/functions.js"></script>
     <title>TuForo-UES | Inicio</title>
 </head>
 
 <body>
     <header>
-        <img src="img/TUFORO-UES.jpg">
-        <nav>
-            <ul>
-                <a href="index.html"><li>Inicio</li></a>
-                <a href="antecedentes.html"><li>Antecedentes</li></a>
-                <a href="valores.html"><li>Valores</li></a>
-                <a href="listaProblemas.html"><li>Problem&aacute;ticas</li></a>
-                <a href="aportes.html"><li>Aportes</li></a>
-                <a href="contactanos.html"><li>Cont&aacute;ctanos</li></a>
-            </ul>
-        </nav>
-        <h1>TuForo-UES</h1>
+        <div class="topnav" id="myTop">
+            <a class="elemento-navi active" href="index.html">
+                Inicio
+            </a>
+            <a class="elemento-navi" href="antecedentes.html">
+                Antecedentes
+            </a>
+            <a class="elemento-navi" href="valores.html">
+                Valores
+            </a>
+            <a class="elemento-navi" href="listaProblemas.html">
+                Problem&aacute;ticas
+            </a>
+            <a class="elemento-navi" href="aportes.html">
+                Aportes
+            </a>
+            <a class="elemento-navi" href="contactanos.html">
+                Cont&aacute;ctanos
+            </a>
+            <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776</a>
+        </div class="MyTop">
+        <div class="banner">
+            <img class="logo" src="img/TUFORO - UES.png" title="TuForo-UES">
+        </div>
     </header>
+
+
     <section>
         <article>
             <header>
                 <h1>¡BIENVENIDOS A TUFORO-UES!</h1>
             </header>
-            <p>
-                Bienvenidos a tu p&aacute;ina de debate universitario: TuForo-UES; 
-                donde podr&aacute;s compartir los diversos problemas que afronta tu facultad o tu escuela, 
-                adem&aacuite; de poder brindar tu opini&oacute;n sobre los mismos, 
-                abriendo espacio para el debate de soluciones que beneficien a la Universidad, 
-                con tal de que sean escuchadas por los organismos que rigen el Alma M&aacute;ter.
-            </p>
+            <div class="contenedor">
+                <div class="slides desvan">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="/img/imagen1.jpg" style="width:100%">
+                    <div class="text">Bienvenidos a tu p&aacute;ina de debate universitario: TuForo-UES;
+                            donde podr&aacute;s compartir los diversos problemas que afronta tu facultad o tu escuela,
+                            adem&aacuite; de poder brindar tu opini&oacute;n sobre los mismos,
+                            abriendo espacio para el debate de soluciones que beneficien a la Universidad,
+                            con tal de que sean escuchadas por los organismos que rigen el Alma M&aacute;ter</div>
+                </div>
+                <div class="slides desvan">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="/img/imagen2.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+                <div class="slides desvan">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="/img/imagen3.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
             <br />
             <p>
                 ¿Deseas ver los problemas que est&aacute;n a la orden del d&iacute;a en las Facultades?
-                Echa un vistazo a la lista de problemas en discusi&oacute;n <a href="listaProblemas.html">aqu&iacute; </a>.
-                Si quieres saber los inicios que dieron lugar a este proyecto, puedes conocer más sobres esto <a href="antecedentes.html">aqu&iacute; </a>. 
-                ¿Quieres aportar nuevos temas para que sean debatidos? Haz click <a href="aportes.html">aqu&iacute; </a> para hacer tu aporte al foro.
-                Si deseas contactarnos, consulta la página con nuestras redes sociales <a href="contactanos.html">aqu&iacute; </a>.
+                Echa un vistazo a la lista de problemas en discusi&oacute;n <a href="listaProblemas.html">aqu&iacute;
+                </a>.
+                Si quieres saber los inicios que dieron lugar a este proyecto, puedes conocer más sobres esto <a
+                    href="antecedentes.html">aqu&iacute; </a>.
+                ¿Quieres aportar nuevos temas para que sean debatidos? Haz click <a href="aportes.html">aqu&iacute; </a>
+                para hacer tu aporte al foro.
+                Si deseas contactarnos, consulta la página con nuestras redes sociales <a
+                    href="contactanos.html">aqu&iacute; </a>.
             </p>
         </article>
     </section>
     <footer>
-        Copyright &copy; 2019. Grupo 12. TPI115
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i><br>
+        <i class="cpy">Copyright &copy; 2019. Grupo 12. TPI115</i>
+        <i class="cpy">Universidad de El Salvador</i>
     </footer>
 </body>
 
