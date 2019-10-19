@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: #fffffa;
 }
 
-.centrado{
+.centrado {
     width: 80%;
     max-width: 1000px;
     margin: auto;
@@ -78,7 +78,7 @@ body{
         text-align: left;
     }
 
-    h1{
+    h1 {
         font-size: 20px;
     }
 }
@@ -107,7 +107,7 @@ body{
     font-weight: bold;
 }
 
-.titulo-seccion{
+.titulo-seccion {
     margin: 5px 0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     text-align: center;
@@ -224,9 +224,9 @@ footer {
 .list {
     list-style-type: none;
 }
-nav {
-    
-}
+
+nav {}
+
 @-webkit-keyframes desvan {
     from {
         opacity: .4
@@ -247,7 +247,7 @@ nav {
     }
 }
 
-.contenido-problema{
+.contenido-problema {
 
     margin: auto;
     margin-top: 20px;
@@ -255,11 +255,11 @@ nav {
     margin-right: 10%;
 }
 
-.p-problema{
+.p-problema {
     font-family: sans-serif;
 }
 
-.p-opinion{
+.p-opinion {
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     font-style: italic;
@@ -268,20 +268,20 @@ nav {
     margin-right: 25%;
 }
 
-.imagen-problema{
+.imagen-problema {
     margin: auto;
     height: 500px;
     width: 100%;
     max-width: 100%;
 }
 
-.titulo-problema{
+.titulo-problema {
     margin: auto;
     background-color: #a00000;
 
 }
 
-.discus{
+.discus {
     margin: auto;
     margin-left: 10%;
     margin-right: 10%;
