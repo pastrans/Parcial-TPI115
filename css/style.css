@@ -112,7 +112,7 @@ footer {
     font-size: 24px !important;
     text-align: center;
     padding-top: 20px !important;
-    padding-bottom: 20px !important
+    padding-bottom: 20px !important;
 }
 
 .cpy {
@@ -210,6 +210,12 @@ footer {
     animation-duration: 1.5s;
 }
 
+.list {
+    list-style-type: none;
+}
+nav {
+    
+}
 @-webkit-keyframes desvan {
     from {
         opacity: .4
