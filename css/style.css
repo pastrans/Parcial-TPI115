@@ -1,13 +1,32 @@
-*{
+.fondo {
+    background-image: url("../img/herringbone.png");
+    background-repeat: repeat-x repeat-y;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: #fffffa;
 }
 
-.centrado{
+.margen {
+    width: 680px;
+    margin: auto;
+
+
+}
+
+@media (max-whidth:680px) {
+    .margen {
+        width: 100%;
+    }
+}
+
+
+.centrado {
     width: 80%;
     max-width: 1000px;
     margin: auto;
@@ -78,7 +97,7 @@ body{
         text-align: left;
     }
 
-    h1{
+    h1 {
         font-size: 20px;
     }
 }
@@ -96,20 +115,30 @@ body{
     height: auto;
 }
 
-h1 {
-    margin: 5px 0;
+.tuforoues {
+    margin: 0 0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     text-align: center;
     font-style: italic;
     color: #f2f2f2;
     background-color: #252932;
-    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.titulo-seccion {
+    margin: 0 0;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: #f2f2f2;
+    background-color: #030f2c;
     font-weight: bold;
 }
 
 footer {
     background-color: #a00000;
-    font-size: 24px !important;
+    color: #fff;
+    font-size: 15px !important;
     text-align: center;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
@@ -168,9 +197,10 @@ footer {
 }
 
 
-.text {
-    color: #f2f2f2;
-    text-shadow: 1px 1px #a00000;
+.text-slide {
+    color: #a00000;
+    text-shadow: 1px 1px #f2f2f2;
+    font-weight: bolder;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -235,7 +265,7 @@ footer {
     }
 }
 
-.contenido-problema{
+.contenido-problema {
 
     margin: auto;
     margin-top: 20px;
@@ -243,11 +273,11 @@ footer {
     margin-right: 10%;
 }
 
-.p-problema{
+.p-problema {
     font-family: sans-serif;
 }
 
-.p-opinion{
+.p-opinion {
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     font-style: italic;
@@ -256,21 +286,45 @@ footer {
     margin-right: 25%;
 }
 
-.imagen-problema{
+.imagen-problema {
     margin: auto;
-    height: 100%;
+    height: 500px;
     width: 100%;
     max-width: 100%;
 }
 
-.titulo-problema{
+.titulo-problema {
     margin: auto;
     background-color: #a00000;
 
 }
 
-.discus{
+.discus {
     margin: auto;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.redes {
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+}
+
+.descripcion-articulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: #14022b;
+    font-weight: bold;
+}
+
+.titulo-articulo {
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+}
+
+.texto {
+    font-family: sans-serif;
+    font-weight: bold;
 }

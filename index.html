@@ -11,11 +11,22 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/TUFORO - UES Favicon.ico">
     <script type="text/javascript" src="js/functions.js"></script>
     <title>TuForo-UES | Inicio</title>
 </head>
 
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0">
+    </script>
+
+    <!-- Your like button code -->
+    <div class="fb-like" data-href="https://www.your-domain.com/your-page.html" data-layout="standard"
+        data-action="like" data-show-faces="true">
+    </div>
+    <!--fin paso1 facebook-->
     <header>
         <div class="topnav" id="myTop">
             <a class="elemento-navi active" href="index.html">
@@ -42,56 +53,70 @@
             <img class="logo" src="img/TUFORO - UES.png" title="TuForo-UES">
         </div>
     </header>
-
-
-    <section class="cuerpo">
-        
-            <header>
-                <h1>¡BIENVENIDOS A TUFORO-UES!</h1>
-            </header>
-            <div class="contenedor">
-                <div class="slides desvan">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="/img/imagen1.jpg" style="width:100%">
-                    <div class="text">Bienvenidos a tu p&aacute;ina de debate universitario: TuForo-UES;
-                            donde podr&aacute;s compartir los diversos problemas que afronta tu facultad o tu escuela,
-                            adem&aacuite; de poder brindar tu opini&oacute;n sobre los mismos,
-                            abriendo espacio para el debate de soluciones que beneficien a la Universidad,
-                            con tal de que sean escuchadas por los organismos que rigen el Alma M&aacute;ter</div>
-                </div>
-                <div class="slides desvan">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="/img/imagen2.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
-                </div>
-                <div class="slides desvan">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="/img/imagen3.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="cuerpo fondo">
+        <header>
+            <h1 class="tuforoues">¡BIENVENIDOS A TUFORO-UES!</h1>
+        </header>
+        <div class="contenedor">
+            <div class="slides desvan" style="display: block">
+                <div class="numbertext">1 / 3</div>
+                <img src="/img/imagen1.jpg" style="width:100%">
+                <div class="text-slide">Nuestra querida Minerva</div>
             </div>
-            <br>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+            <div class="slides desvan">
+                <div class="numbertext">2 / 3</div>
+                <img src="/img/imagen2.jpg" style="width:100%">
+                <div class="text-slide">Somos estudiantes que queremos hacer de nuestra Universidad un mejor lugar</div>
             </div>
-            <br />
-            <p class="centrado">
-                ¿Deseas ver los problemas que est&aacute;n a la orden del d&iacute;a en las Facultades?
-                Echa un vistazo a la lista de problemas en discusi&oacute;n <a href="listaProblemas.html">aqu&iacute;
-                </a>.
-                Si quieres saber los inicios que dieron lugar a este proyecto, puedes conocer más sobres esto <a
-                    href="antecedentes.html">aqu&iacute; </>.
-                ¿Quieres aportar nuevos temas para que sean debatidos? Haz click <a href="aportes.html">aqu&iacute; </a>
-                para hacer tu aporte al foro.
-                Si deseas contactarnos, consulta la página con nuestras redes sociales <a
-                    href="contactanos.html">aqu&iacute; </a>.
-            </p>
-        
-    </section>
+            <div class="slides desvan">
+                <div class="numbertext">3 / 3</div>
+                <img src="/img/imagen3.jpg" style="width:100%">
+                <div class="text-slide">Somos el futuro de nuestro pa&iacute;s, de nuestro mundo.</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <br />
+        <p class="centrado texto">
+            Bienvenidos a tu p&aacute;ina de debate universitario: TuForo-UES;
+                    donde podr&aacute;s compartir los diversos problemas que afronta tu facultad o tu escuela,
+                    adem&aacute; de poder brindar tu opini&oacute;n sobre los mismos,
+                    abriendo espacio para el debate de soluciones que beneficien a la Universidad,
+                    con tal de que sean escuchadas por los organismos que rigen el Alma M&aacute;ter
+        </p><br><br>
+        <p class="centrado texto">
+            ¿Deseas ver los problemas que est&aacute;n a la orden del d&iacute;a en las Facultades?
+            Echa un vistazo a la lista de problemas en discusi&oacute;n <a href="listaProblemas.html">aqu&iacute;
+            </a>.
+            Si quieres saber los inicios que dieron lugar a este proyecto, puedes conocer más sobres esto <a
+                href="antecedentes.html">aqu&iacute; </a>.
+            ¿Quieres aportar nuevos temas para que sean debatidos? Haz click <a href="aportes.html">aqu&iacute; </a>
+            para hacer tu aporte al foro.
+            Si deseas contactarnos, consulta la página con nuestras redes sociales <a
+                href="contactanos.html">aqu&iacute; </a>.
+        </p><br><br>
+    </div>
+    <!--Cambiar data-ref por el enlace a la pagina de fb-->
+    <div class="redes">
+        <div class="fb-like"
+            data-href="https://www.facebook.com/cracksnoticias/?__tn__=kC-R&eid=ARAShJjr7XMHO1-PIya3DpRRFx1ov7linoMc7Facn-cNIHxicAqY7aU639G6RxGQihkpk0tWNsFNscba&hc_ref=ARRUEK-ggEfuNZkIreLOtrPQ5TVIMJSQ813DsNeC2o2yYcrAE6kU721xklCxFxQZQb4&fref=nf"
+            data-width="" data-layout="standard" data-action="like" data-size="large" data-show-faces="true"
+            data-share="true"></div>
+        <a href="https://twitter.com/TuforoUes" class="twitter-follow-button" data-size="large"
+            data-lang="es" data-show-count="false">Follow @cegarcia48</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
+            data-hashtags="TuForo-UES" data-related="UESoficial,RogerArias_" data-lang="es"
+            data-show-count="false">Tweet</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
     <footer>
         <i class="fa fa-facebook-official w3-hover-opacity"></i>
         <i class="fa fa-instagram w3-hover-opacity"></i>
