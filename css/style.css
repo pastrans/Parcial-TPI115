@@ -115,24 +115,22 @@ body {
 }
 
 .tuforoues {
-    margin: 5px 0;
+    margin: 0 0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     text-align: center;
     font-style: italic;
     color: #f2f2f2;
     background-color: #252932;
-    border-radius: 0.5em;
     font-weight: bold;
 }
 
 .titulo-seccion {
-    margin: 5px 0;
+    margin: 0 0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     text-align: center;
     font-style: italic;
     color: #f2f2f2;
     background-color: #030f2c;
-    border-radius: 0.5em;
     font-weight: bold;
 }
 
