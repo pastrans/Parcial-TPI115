@@ -314,6 +314,10 @@ footer {
     height: 100px;
 }
 
+.botones-fb, .botones-twitter{
+    display: inline;
+}
+
 .descripcion-articulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
