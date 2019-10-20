@@ -1,3 +1,8 @@
+.fondo {
+    background-image: url("../img/herringbone.png");
+    background-repeat: repeat-x repeat-y;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -290,4 +295,16 @@ nav {}
 .redes {
     margin: auto;
     height: 200px;
+}
+
+.descripcion-articulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: #14022b;
+    font-weight: bold;
+}
+
+.titulo-articulo {
+    text-decoration: none;
+    color: rgb(0, 81, 255);
 }
