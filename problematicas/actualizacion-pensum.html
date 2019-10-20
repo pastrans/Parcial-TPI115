@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="../js/functions.js"></script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0">
+    </script>
     <title>Actualizaci&oacute;n de pensum | Problemas</title>
 </head>
 
@@ -41,7 +42,7 @@
                 Cont&aacute;ctanos
             </a>
             <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776</a>
-        </div class="MyTop">
+        </div>
     </header>
     <div class="problematica-cuerpo">
         <div class="banner-problema">
@@ -125,16 +126,14 @@
                 </div>
             </div><br>
             <div class="disqus">
+                <!--SECCION DISQUS-->
                 <h2>Comparte tu Opinión</h2>
-                <!--Etiqueta donde se mostrara el formulario Disqus no cambie el ID-->
                 <div id="disqus_thread"></div>
-                <!--
-                        Mensaje a mostrarse siempre y cuando 
-                        JavaScript este desactivado en tu navegador
-                      -->
+                <!--Mensaje a mostrarse siempre y cuando JavaScript este desactivado en tu navegador-->
                 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
                         powered
-                        by Disqus.</a></noscript>
+                        by Disqus.</a>
+                </noscript>
             </div>
         </div>
     </div>
@@ -147,9 +146,7 @@
         <i class="cpy">Universidad de El Salvador</i>
     </footer>
     <script>
-        /**
-         *  APRENDA POR QUE ES IMPORTANTE DEFINIR ESTAS VARIABLES: https://disqus.com/admin/universalcode/#configuration-variables*/
-
+        /*APRENDA POR QUE ES IMPORTANTE DEFINIR ESTAS VARIABLES: https://disqus.com/admin/universalcode/#configuration-variables*/
         var disqus_config = function () {
             this.page.url = window.location.href; // Url de tu sitio web
             this.page.identifier = window.location.href; // Url de tu sitio web
@@ -158,7 +155,7 @@
         (function () { // TENGA CUIDADO AL REALIZAR SUS CAMBIOS
             var $d = document,
                 $s = $d.createElement('script'),
-                $shortName = 'tuforo-ues'; //Importante: cambialo por tu Shorname
+                $shortName = 'tuforo-ues';
 
             $s.src = '//' + $shortName + '.disqus.com/embed.js';
             $s.setAttribute('data-timestamp', +new Date());
@@ -167,5 +164,4 @@
     </script>
     <script id="dsq-count-scr" src="//tuforo-ues.disqus.com/count.js" async></script>
 </body>
-
 </html>
