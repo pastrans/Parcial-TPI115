@@ -13,10 +13,8 @@ body {
 }
 
 .margen {
-    width: 680px;
+    width: 600px;
     margin: auto;
-
-
 }
 
 @media (max-whidth:680px) {
@@ -99,6 +97,10 @@ body {
 
     h1 {
         font-size: 20px;
+    }
+
+    .margen {
+        width: 80%;
     }
 }
 
@@ -326,4 +328,20 @@ footer {
 .texto {
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.contenedor-fb {
+    display: inline-flex;
+    width: 33%;
+
+}
+
+.contenedor-twitter {
+    display: inline-flex;
+    width: 33%;
+}
+
+.contenedor-insta {
+    display: inline-flex;
+    width: 33%;
 }
