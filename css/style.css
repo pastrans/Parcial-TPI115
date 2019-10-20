@@ -12,16 +12,17 @@ body {
     background: #fffffa;
 }
 
-.margen{
+.margen {
     width: 680px;
-    margin:auto;
+    margin: auto;
 
 
 }
-@media (max-whidth:680px ){
-   .margen {
-    width:100%;
-   } 
+
+@media (max-whidth:680px) {
+    .margen {
+        width: 100%;
+    }
 }
 
 
@@ -136,7 +137,8 @@ body {
 
 footer {
     background-color: #a00000;
-    font-size: 24px !important;
+    color: #fff;
+    font-size: 15px !important;
     text-align: center;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
@@ -194,9 +196,10 @@ footer {
 }
 
 
-.text {
-    color: #f2f2f2;
-    text-shadow: 1px 1px #a00000;
+.text-slide {
+    color: #a00000;
+    text-shadow: 1px 1px #f2f2f2;
+    font-weight: bolder;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -240,8 +243,6 @@ footer {
 .list {
     list-style-type: none;
 }
-
-nav {}
 
 @-webkit-keyframes desvan {
     from {
@@ -305,7 +306,9 @@ nav {}
 
 .redes {
     margin: auto;
-    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
 }
 
 .descripcion-articulo {
@@ -318,4 +321,9 @@ nav {}
 .titulo-articulo {
     text-decoration: none;
     color: rgb(0, 81, 255);
+}
+
+.texto {
+    font-family: sans-serif;
+    font-weight: bold;
 }
