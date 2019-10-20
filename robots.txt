@@ -1,0 +1,20 @@
+#Robots.txt para tuforo-ues.com
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: APIs-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+Disallow: /*.xml
+
+Sitemap: http://tuforo-ues.com/sitemap.xml
