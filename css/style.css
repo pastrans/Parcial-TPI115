@@ -144,6 +144,7 @@ footer {
     text-align: center;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
+    float: inline-end;
 }
 
 .cpy {
