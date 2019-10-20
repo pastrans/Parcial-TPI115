@@ -7,6 +7,19 @@ body {
     background: #fffffa;
 }
 
+.margen{
+    width: 680px;
+    margin:auto;
+
+
+}
+@media (max-whidth:680px ){
+   .margen {
+    width:100%;
+   } 
+}
+
+
 .centrado {
     width: 80%;
     max-width: 1000px;
