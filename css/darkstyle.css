@@ -1,5 +1,5 @@
 .fondo {
-    background-image: url("../img/herringbone.png");
+    background-image: url("../img/memphis-mini-dark.png");
     background-repeat: repeat-x repeat-y;
 }
 
@@ -28,8 +28,8 @@
 
 .topnav {
     list-style: none;
-    background-color: #a00000;
-    color: #fff;
+    background-color: #000;
+    color: #a00000;
     position: static;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
     overflow: hidden;
@@ -39,7 +39,7 @@
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #a00000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,8 +51,8 @@
 }
 
 .topnav a.active {
-    background-color: #f2f2f2;
-    color: #a00000;
+    background-color: #a00000;
+    color: #000;
 }
 
 .topnav .icon {
@@ -101,11 +101,12 @@
 }
 
 .banner {
-    background-color: #d9d9d9;
+    background-color: #000;
     height: 100%;
 }
 
 .logo-main {
+    content: url("../img/TUFORO\ -\ UES\ Alterno.png");
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -114,6 +115,7 @@
 }
 
 .logo {
+    content: url("../img/TUFORO\ -\ UES\ Alterno3.png");
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -142,12 +144,12 @@
 }
 
 footer {
-    background-color: #a00000;
+    background-color: #000;
     color: #fff;
     font-size: 15px !important;
     text-align: center;
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
     float: inline-end;
 }
 
@@ -171,6 +173,8 @@ footer {
 
 .slides {
     display: none;
+    opacity: 0.9;
+    background-color: black;
 }
 
 
@@ -205,7 +209,7 @@ footer {
 
 .text-slide {
     color: #a00000;
-    text-shadow: 1px 1px #f2f2f2;
+    text-shadow: 1px 1px #000;
     font-weight: bolder;
     font-size: 15px;
     padding: 8px 12px;
@@ -237,7 +241,7 @@ footer {
 
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: #030f2c;
 }
 
 .desvan {
@@ -272,7 +276,6 @@ footer {
 }
 
 .contenido-problema {
-
     margin: auto;
     margin-top: 20px;
     margin-left: 10%;
@@ -288,8 +291,8 @@ footer {
     font-size: 20px;
     font-style: italic;
     margin: auto;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .imagen-problema {
@@ -302,8 +305,7 @@ footer {
 .titulo-problema {
     margin: auto;
     background-color: #a00000;
-    padding-left: 5%;
-    padding-right: 5%;
+
 }
 
 .discus {
@@ -317,6 +319,7 @@ footer {
     padding-left: 10%;
     padding-right: 10%;
     height: 70px;
+    color: #f2f2f2;
 }
 
 .botones-fb, .botones-twitter{
@@ -324,19 +327,21 @@ footer {
 }
 
 .descripcion-articulo {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
     font-style: italic;
-    color: #14022b;
+    color: #f2f2f2;
     font-weight: bold;
 }
 
 .titulo-articulo {
+    font-family: 'Kalam';
     text-decoration: none;
-    color: rgb(0, 81, 255);
+    color: #a00000
 }
 
 .texto {
-    font-family: 'Kalam', 'cursive';
+    color: #f2f2f2;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -357,11 +362,11 @@ footer {
 }
 
 p {
-    color: #000;
+    color: #f2f2f2;
     font-family: 'Kalam', 'cursive'
 }
 
 li {
     font-style: italic;
-    color: #000;
+    color: #f2f2f2;
 }
